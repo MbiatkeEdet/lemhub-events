@@ -3,7 +3,7 @@ import QRCode from 'react-qr-code'
 export default function EventPass({
   name = 'Guest Name',
   id = 'EV-0000',
-  event = 'Guest Suite Gala',
+  event = 'Lemhub Events',
   tier = 'Standard',
   className = '',
 }) {

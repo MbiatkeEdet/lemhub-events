@@ -18,8 +18,8 @@ export default function Contact() {
       <div className="mt-14 grid gap-14 lg:grid-cols-[1fr_1.2fr]">
         <div className="space-y-8">
           <ContactRow icon={Phone} label="Front desk" value="+234 803 555 0117" />
-          <ContactRow icon={Mail} label="Email" value="support@guestsuite.com" />
-          <ContactRow icon={MapPin} label="Address" value="14 Marina Crescent, Port Harcourt" />
+          <ContactRow icon={Mail} label="Email" value="support@eledimevents.com" />
+          <ContactRow icon={MapPin} label="Address" value="NTA Road Mgbougba, Port Harcourt" />
 
           <div className="border-t border-dashed border-bronze-line pt-6">
             <p className="font-mono text-[11px] tracking-[0.2em] text-gold">RESPONSE TIME</p>
