@@ -29,7 +29,7 @@ export default function PackageCard({ pkg }) {
       <p className="mt-2 font-body text-sm text-bone-dim">{pkg.tagline}</p>
 
       <div className="mt-6 flex items-baseline gap-2">
-        <span className={`font-display text-4xl ${accent.text}`}>${pkg.price}</span>
+        <span className={`font-display text-4xl ${accent.text}`}>{'\u20A6' + pkg.price.toLocaleString()}</span>
         <span className="font-body text-sm text-bone-dim">{pkg.period}</span>
       </div>
 

@@ -3,7 +3,7 @@ export const packages = [
     code: 'EV-01',
     name: 'Starter',
     tagline: 'For single events and first-time organizers.',
-    price: 29,
+    price: 60000,
     period: 'per event',
     accent: 'bone',
     features: [
@@ -19,7 +19,7 @@ export const packages = [
     code: 'EV-02',
     name: 'Standard',
     tagline: 'Our most-booked tier — built for recurring events.',
-    price: 79,
+    price: 120000,
     period: 'per event',
     accent: 'gold',
     featured: true,
@@ -37,7 +37,7 @@ export const packages = [
     code: 'EV-03',
     name: 'Premium',
     tagline: 'Full-scale guest operations for flagship events.',
-    price: 199,
+    price: 250000,
     period: 'per event',
     accent: 'brass',
     features: [
